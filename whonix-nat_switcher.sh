@@ -10,7 +10,7 @@ if [[ $par = WHONIX ]]; then
     echo "# This file describes the network interfaces available on your system" > $interfaces_file
     echo "# and how to activate them. For more information, see interfaces(5). " >> $interfaces_file
     echo "" >> $interfaces_file
-    echo "source /etc/network/interfaces.d/*" >> $interfaces_file
+    #echo "source /etc/network/interfaces.d/*" >> $interfaces_file
     echo "" >> $interfaces_file
     echo "# The loopback network interface" >> $interfaces_file
     echo "auto eth0" >> $interfaces_file
